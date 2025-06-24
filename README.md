@@ -4,7 +4,7 @@
 
 ### 1. GitHub, Markdown, Colab
 
-**GitHub 사용법https://github.com/jetsonmom/git_test_markdown_sample?tab=readme-ov-file#github-%EC%82%AC%EC%9A%A9%EB%B2%95**
+[GitHub 사용법](#https://github.com/jetsonmom/git_test_markdown_sample?tab=readme-ov-file#github-%EC%82%AC%EC%9A%A9%EB%B2%95)
 
 #### ✅ GitHub 계정 만드는 순서 (2025년 기준)
 - 웹 브라우저(크롬, 엣지, 사파리 등) 실행
