@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/fc65eced-36a7-43b2-b5bb-7095f57a6321)## 📘 AI 학습 정리 (GitHub 기준)
+![image](https://github.com/user-attachments/assets/76c4b64b-e0ab-48d8-a523-e1dba032397c)![image](https://github.com/user-attachments/assets/fc65eced-36a7-43b2-b5bb-7095f57a6321)## 📘 AI 학습 정리 (GitHub 기준)
 
 ---
 
@@ -25,7 +25,8 @@
 - **Initialize this repository with a README** 체크 (README.md 파일 생성)
 - **Create repository** 클릭
 ![image](https://github.com/user-attachments/assets/254e5e75-be42-421e-a673-636cec99bf76)
-[Uploading image.png…]()
+![image](https://theorydb.github.io/assets/img/dev/ml/2019-08-23-dev-ml-colab-8.jpg)
+![image](https://theorydb.github.io/assets/img/dev/ml/2019-08-23-dev-ml-colab-13.jpg)
 
 [Markdown 문법](#https://github.com/jetsonmom/git_test_markdown_sample?tab=readme-ov-file#markdown-%EB%AC%B8%EB%B2%95)
 
