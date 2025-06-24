@@ -25,8 +25,6 @@
 - **Initialize this repository with a README** 체크 (README.md 파일 생성)
 - **Create repository** 클릭
 ![image](https://github.com/user-attachments/assets/254e5e75-be42-421e-a673-636cec99bf76)
-![image](https://theorydb.github.io/assets/img/dev/ml/2019-08-23-dev-ml-colab-8.jpg)
-![image](https://theorydb.github.io/assets/img/dev/ml/2019-08-23-dev-ml-colab-13.jpg)
 
 [Markdown 문법](#https://github.com/jetsonmom/git_test_markdown_sample?tab=readme-ov-file#markdown-%EB%AC%B8%EB%B2%95)
 
@@ -63,7 +61,8 @@
 - 주로 데이터 분석, 머신러닝 실습에 활용
 - GitHub 저장소와 연동 가능 (파일 불러오기, 저장 등)
 ![image](https://github.com/user-attachments/assets/ef728171-2b01-4ee3-b307-919023b6e46f)
-
+![image](https://theorydb.github.io/assets/img/dev/ml/2019-08-23-dev-ml-colab-8.jpg)
+![image](https://theorydb.github.io/assets/img/dev/ml/2019-08-23-dev-ml-colab-13.jpg)
 ---
 
 ### 2. Python3
