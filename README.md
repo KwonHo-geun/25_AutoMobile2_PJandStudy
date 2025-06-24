@@ -17,11 +17,15 @@
 
 #### ✅ Repository(저장소) 만들기 순서
 - GitHub 로그인
+  ![image](https://github.com/user-attachments/assets/5ab6b163-b0e4-496e-95e5-97c0e7e166b3)
+
 - 우측 상단 **+** 버튼 클릭 → **New repository** 선택
 - 저장소 이름(Repository name) 입력
 - 공개(Public)/비공개(Private) 선택
 - **Initialize this repository with a README** 체크 (README.md 파일 생성)
 - **Create repository** 클릭
+![image](https://github.com/user-attachments/assets/254e5e75-be42-421e-a673-636cec99bf76)
+[Markdown 문법](#https://github.com/jetsonmom/git_test_markdown_sample?tab=readme-ov-file#markdown-%EB%AC%B8%EB%B2%95)
 
 ---
 
@@ -55,53 +59,57 @@
 - Google Colab은 웹 기반 파이썬 노트북 환경
 - 주로 데이터 분석, 머신러닝 실습에 활용
 - GitHub 저장소와 연동 가능 (파일 불러오기, 저장 등)
+![image](https://github.com/user-attachments/assets/ef728171-2b01-4ee3-b307-919023b6e46f)
 
 ---
 
 ### 2. Python3
 
-**Python 기본 문법 및 사용법**  
+[**Python 기본 문법 및 사용법**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/docs/python3.md)
 - 변수, 자료형, 조건문, 반복문, 함수 등 기초 문법 학습
 
 ---
 
-### 3. 데이터 구조 및 데이터 사이언스
-
-- **Pandas**: 데이터프레임 생성, 분석, 전처리
-- **Numpy**: 고속 수치 연산, 배열 처리
-- **Matplotlib**: 데이터 시각화(그래프, 차트 등)
+### 3. Data structure / Data Sciencs
+- [**데이터 구조 개요** ](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/data_structures.md)
+- [**Pandas**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/pandas.md): 데이터프레임 생성, 분석, 전처리
+- [**Numpy**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/numpy.md): 고속 수치 연산, 배열 처리
+- [**Matplotlib**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/Matplotlib.md): 데이터 시각화(그래프, 차트 등)
 
 ---
 
-### 4. 머신러닝
+### 4. Machine Learning
 
-- **기본 개념**: 지도/비지도 학습, 모델 평가
-- **모델 훈련 및 평가**: 학습 데이터 준비, 모델 학습, 성능 평가
+- [**Basic**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/ml_basic.md): 지도/비지도 학습, 모델 평가
+- [**모델 훈련 및 평가**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/ml_test.md): 학습 데이터 준비, 모델 학습, 성능 평가
 
 ---
 
 ### 5. OpenCV
 
-- **OpenCV 기초**: 이미지 읽기, 변환, 필터 적용
-- **이미지 처리**: 엣지 검출, 객체 인식 등
+- [**OpenCV 기초**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/OpenCV_basic.md): 이미지 읽기, 변환, 필터 적용
+- [**이미지 처리**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/image_test.md): 엣지 검출, 객체 인식 등
 
 ---
 
 ### 6. CNN(합성곱 신경망)
 
-- **CNN 기본**: 구조, 원리, 활용 예시
-- **자율주행 관련 코드**: 이미지 분류, 객체 탐지 등
+- [**CNN 기본**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/CNN_basic.md): 구조, 원리, 활용 예시
+- [**자율주행 관련 코드**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/cnn_test.md): 이미지 분류, 객체 탐지 등
 
 ---
 
 ### 7. Ultralytics
 
-- **Ultralytics 기본**: YOLOv8, YOLOv12 등 최신 객체 탐지 모델 사용법
-
+- [**Ultralytics 기본**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/Ultralytics_basic.md): YOLOv8, YOLOv12 등 최신 객체 탐지 모델 사용법
+- [**YOLOv8**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/YOLOv8_test.md)
+- [**YOLOv12**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/YOLOv12_test.md)
 ---
 
 ### 8. TensorRT vs PyTorch
-
+- [**PyTorch_Basic**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/PyTorch_basic.md)
+- [**TensorRT**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/TensorRT_test.md)
+- [**YOLOv12**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/YOLOv12_test.md)
 | 항목        | PyTorch                | TensorRT           |
 |-------------|------------------------|--------------------|
 | 주요 특징   | 연구/개발 친화적, 유연 | 추론 속도 최적화   |
@@ -112,26 +120,22 @@
 
 ### 9. TAO Toolkit on RunPod
 
-- **TAO 사용법**: NVIDIA의 Transfer Learning Toolkit
-- **RunPod 연동**: 클라우드 환경에서 모델 학습/배포
+- [**TAO 사용법**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/.TAO_install.md): NVIDIA의 Transfer Learning Toolkit
+- [**RunPod 연동**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/.TAO_Toolkit.md): 클라우드 환경에서 모델 학습/배포
 
 ---
 
 ### 10. 칼만필터, CARLA, 경로 알고리즘
 
-- **칼만필터**: 센서 데이터 융합, 예측/보정
-- **CARLA 시뮬레이터**: 자율주행 시뮬레이션 환경
-- **경로 알고리즘**: 최단 경로 탐색, 경로 계획
+- [**칼만필터**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/.kalman.md): 센서 데이터 융합, 예측/보정
+- [**CARLA 시뮬레이터**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/.CARLA.md): 자율주행 시뮬레이션 환경
+- [**경로 알고리즘**](): 최단 경로 탐색, 경로 계획
 
 ---
 
 ### 11. ADAS & (ADAS TensorRT vs PyTorch)
 
-- **ADAS 기본**: 첨단 운전자 지원 시스템 개념
-- **TensorRT vs PyTorch 비교**: 실시간성, 추론 속도, 개발 편의성 등 비교
+- [**ADAS 기본**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/.adas_basic.md): 첨단 운전자 지원 시스템 개념
+- [**TensorRT vs PyTorch 비교**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/.vs.md): 실시간성, 추론 속도, 개발 편의성 등 비교
 
 ---
-
-이 정리는 GitHub 기반의 AI 학습 로드맵, 실습 및 코드 관리에 최적화된 형태로 구성되었습니다. 각 항목별로 GitHub 저장소의 README.md에 마크다운 문법으로 정리하면 효과적으로 활용할 수 있습니다[1].
-
-[1] https://github.com
