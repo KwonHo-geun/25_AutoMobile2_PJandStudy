@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/76c4b64b-e0ab-48d8-a523-e1dba032397c)![image](https://github.com/user-attachments/assets/fc65eced-36a7-43b2-b5bb-7095f57a6321)## 📘 AI 학습 정리 (GitHub 기준)
+## 📘 AI 학습 정리 (GitHub 기준)
 
 ---
 
