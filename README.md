@@ -116,8 +116,8 @@ uploaded = files.upload()
 - 변수, 자료형, 조건문, 반복문, 함수 등 기초 문법 학습
 
 
-[**Python 자동차 제어 예시 코드**](./Python.md)
-[**for문을 활용한 예시 코드**](https://github.com/KwonHo-geun/automobile/blob/main/06.25.%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89_%EC%9E%90%EB%8F%99%EC%B0%A8_for%EB%AC%B8.ipynb)
+- [**Python 자동차 제어 예시 코드**](./Python.md)
+- [**for문을 활용한 예시 코드**](https://github.com/KwonHo-geun/automobile/blob/main/06.25.%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89_%EC%9E%90%EB%8F%99%EC%B0%A8_for%EB%AC%B8.ipynb)
 
 
 ---
