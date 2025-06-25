@@ -67,9 +67,38 @@
 - Google Colab은 웹 기반 파이썬 노트북 환경
 - 주로 데이터 분석, 머신러닝 실습에 활용
 - GitHub 저장소와 연동 가능 (파일 불러오기, 저장 등)
+
+- 이용되는 분야
+📊 데이터 분석 실습 (pandas, matplotlib 등)
+🧠 머신러닝/딥러닝 모델 학습 (TensorFlow, PyTorch 등)
+📝 논문 코드 테스트, Kaggle 노트북 공유
+👩‍🏫 교육용 실습 환경 (학생들에게 설치 없이 환경 제공 가능)
+
+시작하는 방법
+https://colab.research.google.com 접속
+Google 계정으로 로그인
+새 노트북 만들기 (+ 새 노트북)
+코드 셀에 파이썬 코드 입력 후 Shift + Enter로 실행
+
+✅ 자주 쓰는 코드 스니펫 예시
+```
+# 드라이브 연동
+from google.colab import drive
+drive.mount('/content/drive')
+
+# 파일 업로드
+from google.colab import files
+uploaded = files.upload()
+
+# GPU 확인
+!nvidia-smi
+
+# 패키지 설치
+!pip install pandas
+
 ![image](https://github.com/user-attachments/assets/ef728171-2b01-4ee3-b307-919023b6e46f)
-![image](https://theorydb.github.io/assets/img/dev/ml/2019-08-23-dev-ml-colab-8.jpg)
-![image](https://theorydb.github.io/assets/img/dev/ml/2019-08-23-dev-ml-colab-13.jpg)
+```
+
 ---
 
 ### 2. Python3
