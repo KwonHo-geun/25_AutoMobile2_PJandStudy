@@ -113,6 +113,7 @@ uploaded = files.upload()
 [**Python 공부 정리**]
 - [25.06.23](https://github.com/KwonHo-geun/automobile/blob/main/25.06.23.ipynb)
 - [25.06.24](https://github.com/KwonHo-geun/automobile/blob/main/25.06.24.ipynb)
+-   [클래스](https://claude.ai/public/artifacts/82c1fb01-030d-4ae3-abde-118676216f64)
   - 변수, 자료형, 조건문, 반복문, 함수 등 기초 문법 학습
 
 
