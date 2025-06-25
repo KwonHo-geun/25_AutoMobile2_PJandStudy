@@ -20,13 +20,15 @@
 
 #### ✅ Repository(저장소) 만들기 순서
 - GitHub 로그인
-  ![image](https://github.com/user-attachments/assets/5ab6b163-b0e4-496e-95e5-97c0e7e166b3)
+
+![image](https://github.com/user-attachments/assets/5ab6b163-b0e4-496e-95e5-97c0e7e166b3)
 
 - 우측 상단 **+** 버튼 클릭 → **New repository** 선택
 - 저장소 이름(Repository name) 입력
 - 공개(Public)/비공개(Private) 선택
 - **Initialize this repository with a README** 체크 (README.md 파일 생성)
 - **Create repository** 클릭
+
 ![image](https://github.com/user-attachments/assets/254e5e75-be42-421e-a673-636cec99bf76)
 
 ---
