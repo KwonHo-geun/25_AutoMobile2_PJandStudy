@@ -64,6 +64,9 @@
 
 
 **Colab 기초**
+
+![image](https://github.com/user-attachments/assets/ef728171-2b01-4ee3-b307-919023b6e46f)
+
 - Google Colab은 웹 기반 파이썬 노트북 환경
 - 주로 데이터 분석, 머신러닝 실습에 활용
 - GitHub 저장소와 연동 가능 (파일 불러오기, 저장 등)
@@ -96,7 +99,6 @@ uploaded = files.upload()
 # 패키지 설치
 !pip install pandas
 
-![image](https://github.com/user-attachments/assets/ef728171-2b01-4ee3-b307-919023b6e46f)
 ```
 
 ---
