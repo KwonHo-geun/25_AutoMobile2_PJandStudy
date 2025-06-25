@@ -108,9 +108,14 @@ uploaded = files.upload()
 
 ### 2. Python3
 
-[**Python 자동차 제어 예시 코드**](./Python.md)
-- 변수, 자료형, 조건문, 반복문, 함수 등 기초 문법 학습
 [**Python 공부 총 정리**](https://github.com/KwonHo-geun/automobile/blob/main/25.06.23.ipynb)
+- 변수, 자료형, 조건문, 반복문, 함수 등 기초 문법 학습
+
+
+[**Python 자동차 제어 예시 코드**](./Python.md)
+
+
+
 ---
 
 ### 3. Data structure / Data Sciencs
