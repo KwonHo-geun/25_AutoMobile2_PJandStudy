@@ -67,7 +67,7 @@
 
 ### 2. Python3
 
-[**Python 기본 문법 및 사용법**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/docs/python3.md)
+[**Python 기본 문법 및 사용법**](25.06.23.ipynb)
 - 변수, 자료형, 조건문, 반복문, 함수 등 기초 문법 학습
 
 ---
