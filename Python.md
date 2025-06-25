@@ -21,9 +21,10 @@ Print와 print는 완전히 다른 것
 
 # 잘못된 예
 # 올바른 예
+```
 Print("Hello")  # 에러! (대문자 P)
 print("Hello")  # 올바름
-
+```
 
 
 
