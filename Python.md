@@ -7,12 +7,18 @@ Python은 들여쓰기로 코드 블록을 구분합니다
 일관성 있게 스페이스 4개 또는 탭 사용
 
 # 잘못된 예
-# 올바른 예
+
+```
 if True:
 print("Hello")  # 들여쓰기 없음 - 에러!
+```
+
+# 올바른 예
+
+```
 if True:
 1234 print("Hello")  # 스페이스 4개, 4칸띄기기
-
+```
 
 대소문자 구분
 Python은 대소문자를 구분합니다
@@ -20,7 +26,13 @@ Print와 print는 완전히 다른 것
 ![image](https://github.com/user-attachments/assets/3218ddd5-cf0d-427a-9f5b-756577673749)
 
 # 잘못된 예
+
+```
+Print("Hello")  # 에러! (대문자 P)
+```
+
 # 올바른 예
+
 ```
 Print("Hello")  # 에러! (대문자 P)
 print("Hello")  # 올바름
@@ -35,44 +47,48 @@ print("Hello")  # 올바름
 특수문자 사용 불가 (밑줄 _ 제외)
 예약어 사용 불가
 # 잘못된 변수명
+
 # 올바른 변수명
+```
 2name = "John"     # 숫자로 시작
 my-name = "John"   # 하이픈 사용
 class = "A"        # 예약어 사용
 name2 = "John"
 my_name = "John"
 class_name = "A"
-
+```
 
 문자열 처리 주의사항
 # 따옴표 주의
 # 잘못된 경우
-# 올바른 경우
+```
 text = "She said "Hello""  # 에러!
+```
+
+# 올바른 경우
+```
 text = "She said \"Hello\""  # 올바름
 text = 'She said "Hello"'   # 올바름
-
+```
 
 
 # 문자열과 숫자 연산
 # 잘못된 경우
-# 올바른 경우
+```
 age = 25
 print("나이: " + age)   # 에러! 타입 불일치
+```
+
+# 올바른 경우
+```
 age = 25
 print("나이: " + str(age))   # 올바름
 print(f"나이: {age}")        # 올바름 (f-string)
-
-
-
-
-
-
-
-
+```
 
 리스트와 인덱스
 인덱스 범위 주의
+```
 my_list = [1, 2, 3]
 print(my_list[3])  # 에러! 인덱스 범위 초과
 print(my_list[2])  # 올바름 (마지막 요소)
@@ -106,12 +122,13 @@ if x = 10:  # 에러! 할당 연산자 사용
 
 if x == 10:  # 올바름! 비교 연산자 사용
     print("x는 10")
-
+```
 자율주행관련 if문
 자율주행 시스템 If문 예제 10개
 🚗 센서 데이터 기반 판단 로직
 1. 장애물 감지 및 긴급 제동
 # 라이다 센서 데이터
+```
 front_distance = 2.5  # 미터
 current_speed = 60    # km/h
 brake_distance = (current_speed / 3.6) ** 2 / (2 * 7)  # 제동거리 계산
@@ -132,9 +149,10 @@ else:
     emergency_brake = False
     brake_force = 0
     print("정상 주행")
-
+```
 2. 차선 변경 가능성 판단
 # 카메라 및 레이더 센서 데이터
+```
 left_lane_clear = True
 left_rear_distance = 25.0  # 미터
 left_front_distance = 30.0
@@ -158,9 +176,10 @@ else:
     action = "차선 변경 가능"
     
 print(f"판단: {action}")
-
+```
 3. 신호등 인식 및 대응
 # 컴퓨터 비전 처리 결과
+```
 traffic_light_color = "yellow"
 distance_to_stop_line = 15.0  # 미터
 current_speed = 50           # km/h
@@ -190,9 +209,11 @@ else:
     target_speed = 20
 
 print(f"신호등: {traffic_light_color}, 행동: {action}, 목표속도: {target_speed}km/h")
+```
 
 4. 보행자 감지 및 회피
 # 보행자 감지 시스템
+```
 pedestrian_detected = True
 pedestrian_distance = 8.0      # 미터
 pedestrian_speed = 1.5         # m/s (보행속도)
@@ -227,9 +248,10 @@ else:
     brake_intensity = 30
 
 print(f"보행자 상황: {action}, 제동강도: {brake_intensity}%")
-
+```
 5. 날씨 조건에 따른 주행 모드 조정
 # 날씨 센서 및 도로 상태
+```
 weather_condition = "rain"
 visibility = 150        # 미터
 road_friction = 0.4     # 노면 마�찰계수 (0.0-1.0)
@@ -268,9 +290,10 @@ else:
 
 print(f"주행모드: {driving_mode}, 제한속도: {max_speed_limit}km/h")
 print(f"차간거리 배수: {following_distance_multiplier}배")
-
+```
 6. 주차 공간 감지 및 주차 가능성 판단
 # 초음파 센서 및 카메라 데이터
+```
 parking_space_length = 5.2  # 미터
 parking_space_width = 2.1   # 미터
 vehicle_length = 4.5        # 미터
@@ -307,9 +330,10 @@ else:
 print(f"주차 가능: {parking_possible}")
 print(f"주차 방법: {parking_method}")
 print(f"여유공간 - 길이: {length_margin:.1f}m, 폭: {width_margin:.1f}m")
-
+```
 7. 고속도로 합류 판단
 # 고속도로 합류 상황 센서 데이터
+```
 main_lane_traffic_speed = 90    # km/h
 merge_lane_length = 200         # 미터
 current_position = 50           # 합류로에서의 현재 위치 (미터)
@@ -346,9 +370,11 @@ else:
 print(f"합류 판단: {merge_action}")
 print(f"목표 속도: {target_speed}km/h")
 print(f"남은 합류 거리: {remaining_merge_distance}m")
+```
 
 8. 교차로 좌회전 안전성 판단
 # 교차로 좌회전 상황
+```
 oncoming_vehicle_distance = 45   # 미터
 oncoming_vehicle_speed = 55     # km/h
 intersection_width = 20         # 미터
@@ -390,9 +416,12 @@ else:
 print(f"좌회전 판단: {turn_decision}")
 print(f"행동: {action}")
 print(f"대향차량 도달시간: {oncoming_arrival_time:.1f}초")
+```
 
 9. 차량 오작동 감지 및 안전 모드 전환
 # 차량 시스템 상태 모니터링
+
+```
 steering_response = 0.8      # 조향 응답성 (0.0-1.0)
 brake_system_pressure = 85   # 브레이크 압력 (%)
 engine_temperature = 105     # 엔진 온도 (섭씨)
@@ -433,9 +462,11 @@ else:
 print(f"안전 모드: {safety_mode}")
 print(f"최대 허용 속도: {max_speed}km/h")
 print(f"경고 수준: {warning_level}")
-
+```
 10. 스쿨존 및 특수 구역 감지 대응
 # GPS 및 도로 표지판 인식 데이터
+
+```
 current_zone = "school_zone"     # school_zone, hospital_zone, construction, normal
 zone_speed_limit = 30           # km/h
 time_of_day = 8                 # 시간 (0-23)
@@ -493,7 +524,7 @@ print(f"속도 조치: {speed_action} (목표: {target_speed}km/h)")
 # 추가 안전 조치
 if extra_caution:
     print("추가 조치: 전방 주시 강화, 비상등 점멸 고려")
-
+```
 
 🔍 자율주행 If문의 특징
 1. 실시간 센서 데이터 처리
@@ -515,6 +546,7 @@ if extra_caution:
 함수 관련
 매개변수 기본값 주의
 # 위험한 코드
+```
 def add_item(item, my_list=[]):
     my_list.append(item)
     return my_list
@@ -523,20 +555,26 @@ def add_item(item, my_list=[]):
 list1 = add_item("apple")
 list2 = add_item("banana")
 print(list2)  # ['apple', 'banana'] - 예상과 다름!
+```
 
 # 올바른 코드
+```
 def add_item(item, my_list=None):
     if my_list is None:
         my_list = []
     my_list.append(item)
     return my_list
+```
 
 예외 처리
 예외 처리 습관화
-# 위험한 코드
-number = int(input("숫자 입력: "))  # 문자 입력 시 에러!
 
+# 위험한 코드
+```
+number = int(input("숫자 입력: "))  # 문자 입력 시 에러!
+```
 # 안전한 코드
+```
 try:
     number = int(input("숫자 입력: "))
     result = 10 / number
@@ -545,39 +583,49 @@ except ValueError:
     print("숫자를 입력해주세요")
 except ZeroDivisionError:
     print("0으로 나눌 수 없습니다")
+```
 
 파일 처리
 파일 닫기 잊지 말기
 # 위험한 코드
+```
 file = open("data.txt", "r")
 data = file.read()
 # file.close() 잊음!
-
+```
 # 안전한 코드
+```
 with open("data.txt", "r") as file:
     data = file.read()
 # 자동으로 파일이 닫힘
+```
 
 성능 관련
 문자열 연결 최적화
 # 비효율적
+```
 result = ""
 for i in range(1000):
     result += str(i)  # 매번 새로운 문자열 객체 생성
-
+```
 # 효율적
+```
 result = "".join(str(i) for i in range(1000))
+```
 
 일반적인 실수들
 print문에서 괄호 빠뜨리기
 # Python 2 스타일 (에러!)
+```
 print "Hello"
-
+```
 # Python 3 스타일 (올바름)
+```
 print("Hello")
-
+```
 들여쓰기 혼용
 # 에러 발생하는 코드
+```
 if True:
     print("Hello")  # 스페이스 4개
 	print("World")  # 탭 문자 - 에러!
@@ -591,5 +639,5 @@ def increment():
 
 def increment_wrong():
     count += 1  # 에러! 지역변수로 인식
-
+```
 이런 점들을 주의하면서 코딩하면 Python을 더 안전하고 효율적으로 사용할 수 있어요!
