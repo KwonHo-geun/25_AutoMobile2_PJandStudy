@@ -114,15 +114,14 @@ uploaded = files.upload()
 변수, 자료형, 조건문, 반복문, 함수 등 기초 문법 학습
 
 - [25.06.23](https://github.com/KwonHo-geun/automobile/blob/main/25.06.23.ipynb)
+  - [**Python 자동차 제어 예시 코드**](./Python.md)
 - [25.06.24](https://github.com/KwonHo-geun/automobile/blob/main/25.06.24.ipynb)
   - [클래스](https://claude.ai/public/artifacts/82c1fb01-030d-4ae3-abde-118676216f64)
   - [딕셔너리](https://claude.ai/public/artifacts/a11af36d-c9fa-4366-9580-379644d1af5d)
+  - [**for문을 활용한 예시 코드**](https://github.com/KwonHo-geun/automobile/blob/main/06.25.%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89_%EC%9E%90%EB%8F%99%EC%B0%A8_for%EB%AC%B8.ipynb)
+
 - [25.06.25_리스트](https://claude.ai/public/artifacts/fd98c798-ab20-40a4-8a3b-537503b9849c)
-
-
-- [**06.23-Python 자동차 제어 예시 코드**](./Python.md)
-- [**06.24-for문을 활용한 예시 코드**](https://github.com/KwonHo-geun/automobile/blob/main/06.25.%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89_%EC%9E%90%EB%8F%99%EC%B0%A8_for%EB%AC%B8.ipynb)
-- [**06.25-주요 변수를 활용한 자율주행 자동차 예시 코드**](https://github.com/KwonHo-geun/automobile/blob/main/25_06_26.ipynb)
+  - [**06.25-주요 변수를 활용한 자율주행 자동차 예시 코드**](https://github.com/KwonHo-geun/automobile/blob/main/25_06_26.ipynb)
 
 ---
 
