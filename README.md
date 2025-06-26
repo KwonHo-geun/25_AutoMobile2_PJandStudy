@@ -122,7 +122,7 @@ uploaded = files.upload()
 
 - [**Python 자동차 제어 예시 코드**](./Python.md)
 - [**for문을 활용한 예시 코드**](https://github.com/KwonHo-geun/automobile/blob/main/06.25.%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89_%EC%9E%90%EB%8F%99%EC%B0%A8_for%EB%AC%B8.ipynb)
-- [**자율주행 자동차 예시 코드**](https://github.com/KwonHo-geun/automobile/blob/main/25_06_26.ipynb)
+- [**주요 변수를 활용한 자율주행 자동차 예시 코드**](https://github.com/KwonHo-geun/automobile/blob/main/25_06_26.ipynb)
 
 ---
 
