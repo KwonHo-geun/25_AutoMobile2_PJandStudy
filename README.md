@@ -3,9 +3,9 @@
 ---
 
 ### 1. GitHub, Markdown, Colab
-- [Github 사용법](Github.md)
-- [MarkDown 사용법](Github.md)
-- [Colab 사용법](Github.md)
+- [Github 사용법](Github-guide.md)
+- [MarkDown 사용법](MarkDown-guide.md)
+- [Colab 사용법](Colab-guide.md)
 
 [GitHub 사용법](https://github.com/jetsonmom/git_test_markdown_sample?tab=readme-ov-file#github-%EC%82%AC%EC%9A%A9%EB%B2%95)
 
