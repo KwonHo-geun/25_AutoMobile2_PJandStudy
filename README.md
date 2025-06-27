@@ -123,7 +123,7 @@ uploaded = files.upload()
 - [25.06.25_리스트](https://claude.ai/public/artifacts/fd98c798-ab20-40a4-8a3b-537503b9849c)
   - [**06.25-주요 변수를 활용한 자율주행 자동차 예시 코드**](https://github.com/KwonHo-geun/automobile/blob/main/25_06_26.ipynb)
 
-- [25.06.27 자율주행자동차 예시 코드](https://github.com/KwonHo-geun/automobile/blob/main/25_06_27_Dict.ipynb)
+- [25.06.27 리스트 + 딕셔너리를 포함한 자율주행자동차 예시 코드](https://github.com/KwonHo-geun/automobile/blob/main/25_06_27_Dict.ipynb)
 
 ---
 
