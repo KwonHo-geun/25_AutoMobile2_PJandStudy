@@ -124,6 +124,7 @@ uploaded = files.upload()
   - [**06.25-주요 변수를 활용한 자율주행 자동차 예시 코드**](https://github.com/KwonHo-geun/automobile/blob/main/25_06_26.ipynb)
 
 - [25.06.27 리스트 + 딕셔너리를 포함한 자율주행자동차 예시 코드](https://github.com/KwonHo-geun/automobile/blob/main/25_06_27_Dict.ipynb)
+- [25.06.30 함수, main 함수](https://github.com/KwonHo-geun/automobile/blob/main/25.06.30.ipynb)
 
 ---
 
