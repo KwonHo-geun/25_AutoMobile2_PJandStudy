@@ -126,6 +126,8 @@ uploaded = files.upload()
 - [25.06.27 리스트 + 딕셔너리를 포함한 자율주행자동차 예시 코드](https://github.com/KwonHo-geun/automobile/blob/main/25_06_27_Dict.ipynb)
 - [25.06.30 함수, main 함수](https://github.com/KwonHo-geun/automobile/blob/main/25.06.30.ipynb)
 
+- [25.07.01 자율주행 함수 생성](https://github.com/KwonHo-geun/automobile/blob/main/25.07.01.ipynb)
+
 ---
 
 ### 3. Data structure / Data Sciencs
