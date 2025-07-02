@@ -128,6 +128,8 @@ uploaded = files.upload()
 
 - [25.07.01 자율주행 함수 생성](https://github.com/KwonHo-geun/automobile/blob/main/25.07.01.ipynb)
 
+- [25.07.02 자율주행 자동차 class, 함수 실행](https://github.com/KwonHo-geun/automobile/blob/main/25.07.02.ipynb)
+
 ---
 
 ### 3. Data structure / Data Sciencs
