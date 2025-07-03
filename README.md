@@ -130,13 +130,15 @@ uploaded = files.upload()
 
 - [25.07.02 자율주행 자동차 class, 함수 실행](https://github.com/KwonHo-geun/automobile/blob/main/25.07.02.ipynb)
 
+- [25.07.03 자율주행 자동차 - Numpy lib.ver](https://github.com/KwonHo-geun/automobile/blob/main/25.07.03.ipynb)
+
 ---
 
 ### 3. Data structure / Data Sciencs
 - [**데이터 구조 개요** ](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/data_structures.md)
 - [**Pandas**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/pandas.md): 데이터프레임 생성, 분석, 전처리
 - [**25.07.02Numpy**](https://github.com/KwonHo-geun/automobile/blob/main/25.07.02%20-%20Numpy.ipynb): 고속 수치 연산, 배열 처리
-- [**Matplotlib**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/Matplotlib.md): 데이터 시각화(그래프, 차트 등)
+- [**25.07.03Matplotlib**](https://github.com/KwonHo-geun/automobile/blob/main/25.07.03-Matplotlib.ipynb): 데이터 시각화(그래프, 차트 등)
 
 ---
 
