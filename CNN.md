@@ -1,10 +1,29 @@
 # CNN (Convolutional Neural Network) 정리
 
--  ### CNN이란 무엇인가?
+- ### CNN이란 무엇인가?
   **Convolutional Neural Network(CNN, 합성곱 신경망)**는 이미지, 음성, 시계열 등 공간적/시간적 패턴이 중요한 데이터를 효과적으로 처리하는 딥러닝 모델.
   인간 시각 피질의 구조에서 영감을 받아 설계되었으며, 주로 이미지 분류, 객체 인식, 의료 영상 분석 등 다양한 분야에서 활용됨.
 
-- CNN Architecture
+<img width="705" height="287" alt="image" src="https://github.com/user-attachments/assets/dbfaeb22-2ae4-41eb-a8c8-301f5142b576" />
+
+
+---
+
+- ### DeepLearning Model 흐름
+
+입력 -> (Convolution -> Pooling) × N = 계층별로 국소 특징 추출 
+Flatten -> Fully Connected Layer-> Activation -> Loss 계산 -> 
+Optimizer로 파라미터 업데이트 -> Epoch 반복 + Regularization 적용
+
+- ### CNN 핵심 특징
+- 로컬 연결성(Local Connectivity): 각 뉴런은 전체 입력이 아닌 일부 영역(수용영역)만을 바라.
+- 가중치 공유(Shared Weights): 동일 필터가 전체 입력에 반복 적용되어 파라미터 수가 대폭 감소.
+- 계층적 특징 추출(Hierarchical Feature Extraction): 저수준(엣지 등)에서 고수준(객체 등)까지 점진적으로 특징을 학습.
+- 공간 불변성(Translation Invariance): 위치 변화에도 강인한 특징 추출이 가능
+
+---
+
+- ### CNN Architecture
 
 | Layer 유형              | 주요 역할 및 설명                                                        |
 |------------------------|-------------------------------------------------------------------------|
@@ -15,20 +34,62 @@
 | Fully Connected Layer  | 추출된 특징을 바탕으로 최종 예측(분류 등) 수행                           |
 | Output Layer           | Softmax 등으로 최종 결과 출력                                            |
 
+---
 
-- ### DeepLearning Model 흐름
+- ### 각 구성요소의 작동 원리
+- 합성곱층 (Convolutional Layer)
+합성곱층은 입력 이미지에 **필터(커널)**를 적용하여 특징맵을 생성.
 
-입력 -> (Convolution -> Pooling) × N 
-= 계층별로 국소 특징 추출 Flatten 
--> Fully Connected Layer-> Activation -> Loss 계산 -> 
-Optimizer로 파라미터 업데이트 -> Epoch 반복 + Regularization 적용
+📐 합성곱 연산 수식
+[ (f * g)(x, y) = \sum\sum f(i, j) \cdot g(x-i, y-j) ]
 
-- ### CNN 핵심 특징
-- 로컬 연결성(Local Connectivity): 각 뉴런은 전체 입력이 아닌 일부 영역(수용영역)만을 바라.
-- 가중치 공유(Shared Weights): 동일 필터가 전체 입력에 반복 적용되어 파라미터 수가 대폭 감소.
-- 계층적 특징 추출(Hierarchical Feature Extraction): 저수준(엣지 등)에서 고수준(객체 등)까지 점진적으로 특징을 학습.
-- 공간 불변성(Translation Invariance): 위치 변화에도 강인한 특징 추출이 가능
+🔢 출력 크기 계산
+[ \text{출력 크기} = \frac{\text{입력 크기} - \text{필터 크기} + 2 \times \text{패딩}}{\text{스트라이드}} + 1 ]
 
+- ### 활성화 함수 (Activation Function)
+CNN에서 주로 사용되는 활성화 함수들:
+
+ReLU: ( f(x) = \max(0, x) )
+Leaky ReLU: ( f(x) = \max(0.01x, x) )
+3.3 풀링층 (Pooling Layer)
+특징맵의 크기를 줄이고 중요한 정보만 추출합.
+
+최대 풀링 (Max Pooling): ( f(x) = \max(x_i) ) (pooling window 내)
+평균 풀링 (Average Pooling): ( f(x) = \frac{1}{n} \sum x_i ) (pooling window 내)
+3.4 완전연결층 (Fully Connected Layer)
+[ y = W \cdot x + b ]
+
+---
+
+- ### 수평/수직 필터(Horizontal/Vertical Filter) 정리
+
+CNN(합성곱 신경망)에서 **수평 필터**와 **수직 필터**는 이미지 내 경계(엣지) 정보를 감지하는 데 사용되는 대표적인 커널(필터)입니다. 아래는 GitHub 문서에 바로 활용할 수 있도록 정리한 내용입니다.
+
+---
+
+### 수평, 수직 필터
+
+- **수평 필터(Horizontal Filter)**: 이미지에서 위/아래가 급격히 바뀌는 *수평 방향*의 경계를 감지
+- **수직 필터(Vertical Filter)**: 이미지에서 좌/우가 급격히 바뀌는 *수직 방향*의 경계를 감지
+
+---
+
+###  대표적 커널(필터) 구조
+
+| 필터 종류    | 감지 방향        | 대표 커널(Prewitt)         | 대표 커널(Sobel)            | 주요 역할           |
+|--------------|------------------|----------------------------|-----------------------------|---------------------|
+| 수평 필터    | 위↔아래(수평선)  | `[ [1, 1, 1], [0, 0, 0], [-1, -1, -1] ]` | `[ [1, 2, 1], [0, 0, 0], [-1, -2, -1] ]` | 수평 경계 감지      |
+| 수직 필터    | 좌↔우(수직선)    | `[ [1, 0, -1], [1, 0, -1], [1, 0, -1] ]` | `[ [1, 0, -1], [2, 0, -2], [1, 0, -1] ]` | 수직 경계 감지      |
+
+---
+
+### 3. 동작 원리 및 특징
+
+- 필터(커널)가 이미지 전체를 슬라이딩하며 각 위치에서 내적 연산을 수행
+- 수평 필터는 위/아래 픽셀 차이를, 수직 필터는 좌/우 픽셀 차이를 강조
+- 엣지(경계) 검출에 효과적이며, CNN의 초기 계층에서 주로 사용됨
+
+---
 
 - ### CNN 관련 주요 용어 정리
 
