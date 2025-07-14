@@ -137,8 +137,8 @@ uploaded = files.upload()
 ### 3. Data structure / Data Sciencs
 - [**데이터 구조 개요** ](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/data_structures.md)
 - [**Pandas**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/pandas.md): 데이터프레임 생성, 분석, 전처리
-- [**25.07.02Numpy**](https://github.com/KwonHo-geun/automobile/blob/main/25.07.02%20-%20Numpy.ipynb): 고속 수치 연산, 배열 처리
-- [**25.07.03Matplotlib**](https://github.com/KwonHo-geun/automobile/blob/main/25.07.03-Matplotlib.ipynb): 데이터 시각화(그래프, 차트 등)
+- [**25.07.02 Numpy**](https://github.com/KwonHo-geun/automobile/blob/main/25.07.02%20-%20Numpy.ipynb): 고속 수치 연산, 배열 처리
+- [**25.07.03 Matplotlib**](https://github.com/KwonHo-geun/automobile/blob/main/25.07.03-Matplotlib.ipynb): 데이터 시각화(그래프, 차트 등)
 
 ---
 
@@ -158,7 +158,7 @@ uploaded = files.upload()
 
 ### 6. CNN(합성곱 신경망)
 
-- [**CNN 기본**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/CNN_basic.md): 구조, 원리, 활용 예시
+- [**25.07.14 CNN 기본**](https://github.com/KwonHo-geun/hogeun/blob/main/CNN.md): 구조, 원리, 활용 예시
 - [**자율주행 관련 코드**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/cnn_test.md): 이미지 분류, 객체 탐지 등
 
 ---
