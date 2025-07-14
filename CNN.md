@@ -164,4 +164,9 @@ CNN(합성곱 신경망)에서 **수평 필터**와 **수직 필터**는 이미�
  - ### 이미지 처리 및 컨볼루션 처리 시각화
 
 - [Image processing](https://claude.ai/public/artifacts/c84d6210-cc1f-4f28-8be1-3f2150ea86e2)
+
+-  이미지 처리결과
+-  <img width="1122" height="883" alt="image" src="https://github.com/user-attachments/assets/ba582aaa-9903-43ed-ab11-ba0f5a3440c7" />
+---
+
 - [Convolution Result](https://claude.ai/public/artifacts/df7a5986-dd0a-4a16-af85-ad90959de392)
