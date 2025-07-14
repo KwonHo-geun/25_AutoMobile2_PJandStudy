@@ -15,6 +15,8 @@
 Flatten -> Fully Connected Layer-> Activation -> Loss 계산 -> 
 Optimizer로 파라미터 업데이트 -> Epoch 반복 + Regularization 적용
 
+[Convolution Result](https://claude.ai/public/artifacts/df7a5986-dd0a-4a16-af85-ad90959de392)
+
 - ### CNN 핵심 특징
 - 로컬 연결성(Local Connectivity): 각 뉴런은 전체 입력이 아닌 일부 영역(수용영역)만을 바라.
 - 가중치 공유(Shared Weights): 동일 필터가 전체 입력에 반복 적용되어 파라미터 수가 대폭 감소.
