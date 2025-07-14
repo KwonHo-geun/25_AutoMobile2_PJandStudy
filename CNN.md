@@ -15,7 +15,7 @@
 Flatten -> Fully Connected Layer-> Activation -> Loss 계산 -> 
 Optimizer로 파라미터 업데이트 -> Epoch 반복 + Regularization 적용
 
-[Convolution Result](https://claude.ai/public/artifacts/df7a5986-dd0a-4a16-af85-ad90959de392)
+---
 
 - ### CNN 핵심 특징
 - 로컬 연결성(Local Connectivity): 각 뉴런은 전체 입력이 아닌 일부 영역(수용영역)만을 바라.
@@ -111,4 +111,8 @@ CNN(합성곱 신경망)에서 **수평 필터**와 **수직 필터**는 이미�
 | Optimizer                    | 손실 함수를 최소화하도록 파라미터를 업데이트하는 알고리즘<br>ex) SGD, Momentum, RMSprop, Adam 등           |
 | Regularization (정규화)      | 모델 복잡도 제어로 과적합 방지<br>– L1/L2 페널티: 가중치 크기 제어<br>– Dropout: 학습 시 뉴런 일부 무작위 비활성화 |
 
- 
+ ---
+ - ### 이미지 처리 및 컨볼루션 처리 시각화
+
+- [Image processing](https://claude.ai/public/artifacts/c84d6210-cc1f-4f28-8be1-3f2150ea86e2)
+- [Convolution Result](https://claude.ai/public/artifacts/df7a5986-dd0a-4a16-af85-ad90959de392)
