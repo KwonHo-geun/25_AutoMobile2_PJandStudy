@@ -169,4 +169,14 @@ CNN(합성곱 신경망)에서 **수평 필터**와 **수직 필터**는 이미�
 -  <img width="1122" height="883" alt="image" src="https://github.com/user-attachments/assets/ba582aaa-9903-43ed-ab11-ba0f5a3440c7" />
 ---
 
+
 - [Convolution Result](https://claude.ai/public/artifacts/df7a5986-dd0a-4a16-af85-ad90959de392)
+-
+-  컨볼루션 처리 결과 시각화
+-  <img width="1122" height="637" alt="image" src="https://github.com/user-attachments/assets/691393f5-e66f-4571-9cfb-db30493a680d" />
+
+-  <img width="1039" height="544" alt="image" src="https://github.com/user-attachments/assets/95e9baea-cc79-43d6-aa9f-bb58007974b4" />
+-  <img width="1084" height="389" alt="image" src="https://github.com/user-attachments/assets/71e0e31f-e6ea-441d-bce9-733b743d50c8" />
+-  <img width="1271" height="362" alt="image" src="https://github.com/user-attachments/assets/8d74a330-0e27-46d3-bfc6-139398d0648c" />
+
+
