@@ -159,6 +159,7 @@ uploaded = files.upload()
 ### 6. CNN(합성곱 신경망)
 
 - [**25.07.14 CNN 기본**](https://github.com/KwonHo-geun/hogeun/blob/main/CNN.md): 구조, 원리, 활용 예시
+- [**25.07.15 CNN레이어**](https://github.com/KwonHo-geun/automobile/blob/main/25.07.15_CNN_%EC%98%88%EC%8B%9C_%EB%AA%A8%EB%8D%B8.ipynb): 예시 코드
 - [**자율주행 관련 코드**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/cnn_test.md): 이미지 분류, 객체 탐지 등
 
 ---
