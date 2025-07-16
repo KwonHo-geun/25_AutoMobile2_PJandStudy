@@ -166,11 +166,42 @@ uploaded = files.upload()
 
 ### 7. Ultralytics
 
+- 용어정리
+
+- 그리드(Grid): 이미지를 S×S(예: 7×7) 크기의 그리드로 분할. 각 **그리드 셀(Cell)**이 특정 영역의 객체 탐지 예측을 책임짐.
+
+- 바운딩 박스(Bounding Box): 이미지 내 객체의 위치를 네모(박스)로 표시하는 직사각형.
+  각 박스는 좌표값(x, y, w, h)로 나타내며, (x, y)는 중심 좌표, (w, h)는 너비와 높이.
+
+- 클래스(Class) & 클래스 확률(Class Probability): 객체가 어떤 종류(예: 사람, 자동차, 개)인지 나타내는 값.
+  각 그리드 셀은 자신이 맡은 영역 안에 특정 클래스 객체가 있을 확률을 예측.
+
+- 오브젝트성(Objectness Score, Confidence Score): 예측된 박스에 실제 객체가 존재할 확률을 나타냄.
+  “이 박스 안에 진짜 뭔가 있다!”고 모델이 확신하는 정도(0~1).
+
+- 앵커 박스(Anchor Box): 다양한 모양/비율의 객체를 탐지하기 위해 미리 정의된 여러 박스의 템플릿.
+  각 셀마다 여러 개의 앵커 박스가 존재하며, 객체의 모양에 따라 가장 잘 맞는 앵커에 분배되어 예측이 진행됨.
+
+- IoU(Intersection over Union): 예측한 바운딩 박스와 실제 정답(ground truth) 박스 간의 겹치는 정도를 측정하는 지표.
+  두 박스의 교집합 영역/합집합 영역 값(0~1로 표시, 클수록 잘 맞음).
+
+- Non-Maximum Suppression (NMS): 여러 개의 겹치는 박스 예측 결과 중 “가장 확신이 높은 하나만 남기고 나머지는 버리는” 후처리 방식.
+  같은 객체에 대해 여러 박스가 예측되었을 때, 하나만 남깁니다.
+
+- Confidence Threshold/Confidence Score Threshold: 탐지 결과에서 신뢰도가 이 값(예: 0.5) 미만인 박스는 무시하는 기준치.
+
+- 예측 벡터(Prediction Vector) / 출력 텐서(Output Tensor) 각각의 그리드 셀이 예측하는 값:
+  박스 좌표(x, y, w, h)
+  오브젝트성(score)
+  클래스 확률들
+  이 값들이 모두 합쳐져서 최종 출력 벡터(혹은 텐서)가 됨.
+
+- 
 - [**Ultralytics 기본**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/Ultralytics_basic.md): YOLOv8, YOLOv12 등 최신 객체 탐지 모델 사용법
 - [**YOLOv8**](https://github.com/KwonHo-geun/automobile/blob/main/25.07.16_YOLOv8%EC%8B%A4%EC%8A%B5%20%EA%B2%B0%EA%B3%BC.ipynb)
 - [**YOLOv12**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/YOLOv12_test.md)
 
-- 용어정
+
 
 ---
 
