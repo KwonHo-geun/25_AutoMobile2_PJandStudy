@@ -168,8 +168,10 @@ uploaded = files.upload()
 
 - [**Ultralytics 기본**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/Ultralytics_basic.md): YOLOv8, YOLOv12 등 최신 객체 탐지 모델 사용법
 - [**YOLOv8**](https://github.com/KwonHo-geun/automobile/blob/main/25.07.16_YOLOv8%EC%8B%A4%EC%8A%B5%20%EA%B2%B0%EA%B3%BC.ipynb)
-- 
 - [**YOLOv12**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/YOLOv12_test.md)
+
+- 용어정
+
 ---
 
 ### 8. TensorRT vs PyTorch
