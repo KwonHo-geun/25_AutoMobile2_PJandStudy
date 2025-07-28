@@ -205,7 +205,7 @@ uploaded = files.upload()
 
 ### 8. TensorRT vs PyTorch
 - [**PyTorch_Basic**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/PyTorch_basic.md)
-- [**TensorRT**](https://github.com/KwonHo-geun/automobile/blob/main/25.07.28_Pytorch%26ONNX%EB%B9%84%EA%B5%90.ipynb)
+- [**25.07.28-TensorRT**](https://github.com/KwonHo-geun/automobile/blob/main/25.07.28_Pytorch%26ONNX%EB%B9%84%EA%B5%90.ipynb)
 - [**YOLOv12**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/YOLOv12_test.md)
 
 - ❌ TensorRT가 하지 않는 것
