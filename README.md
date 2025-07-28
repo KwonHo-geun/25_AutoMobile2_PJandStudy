@@ -205,8 +205,34 @@ uploaded = files.upload()
 
 ### 8. TensorRT vs PyTorch
 - [**PyTorch_Basic**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/PyTorch_basic.md)
-- [**TensorRT**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/TensorRT_test.md)
+- [**TensorRT**](https://github.com/KwonHo-geun/automobile/blob/main/25.07.28_Pytorch%26ONNX%EB%B9%84%EA%B5%90.ipynb)
 - [**YOLOv12**](https://github.com/jetsonmom/git_test_markdown_sample/blob/main/YOLOv12_test.md)
+
+- ❌ TensorRT가 하지 않는 것
+🚫 딥러닝 훈련(Training)
+(모델 파라미터를 업데이트하지 않음)
+
+🚫 가중치 학습
+(학습 데이터 기반의 조건부 업데이트 불가)
+
+🚫 역전파(Backpropagation)
+(오차 역전파 방식 미지원)
+
+🚫 모델(아키텍처) 개발
+(신경망 설계, 모델 구조 생성 등 불가)
+
+✅ TensorRT가 하는 것
+⚡ 추론 전용(Inference Only)
+(학습된 모델로 새 입력에 대해 예측만 수행)
+
+🔧 모델 최적화
+(레이어 병합, 정밀도 변환, 그래프 최적화 등)
+
+📦 엔진 변환
+(PyTorch/ONNX 등 다양한 모델을 TensorRT 엔진으로 변환)
+
+🚀 실행 가속
+(GPU 최적 활용, 빠른 추론 결과 제공)
 
 
 | 항목        | PyTorch                | TensorRT           |
