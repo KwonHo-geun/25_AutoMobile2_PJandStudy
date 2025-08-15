@@ -83,7 +83,8 @@ https://github.com/user-attachments/assets/bf79dd11-7fd3-4e34-b68c-dc73f2dcb001
 - 결괴
 
 
-https://github.com/user-attachments/assets/91c17869-0744-4a89-8d10-a227645edca5
+<img width="775" height="611" alt="image" src="https://github.com/user-attachments/assets/693411a5-8f1a-4f12-8aad-a6e41994b3ce" />
+
 
 ### 2. SegFormer 결과
 - SegFormer는 차선 영역을 픽셀 단위로 분할하는 Semantic Segmentation을 수행하였다.
